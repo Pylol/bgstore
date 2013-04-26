@@ -1,0 +1,270 @@
+body{
+	background: url(../images/debut_light.png);
+	border-bottom: 1px solid #ccc;
+}
+#topBar{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 2em;
+	background: #464646;
+	opacity: 0.85;
+	z-index: 9999;
+	color: #FFFFFF;
+}
+#footer{
+	clear: both;
+	width: 100%;
+	height: 10em;
+	margin-top: 5em;
+	text-align: center;
+	background: #464646;
+	border-top: 2px solid #ccc;
+}
+#contain{
+	width: 960px;
+	margin: auto;
+	margin-top: 2em;
+	min-height: 1500px;
+}
+#navSideBar{
+	position: absolute;
+	width: 220px;
+	min-height: 20em;
+	margin-top: 7.5em;
+	float: left;
+}
+
+#navSideBar_Kinds{
+	padding-bottom: 10px;
+	background: #364B5A;
+	box-shadow: 5px 1px 12px #777;
+}
+
+
+#navSideBar_Sale{
+	margin-top: 25px;
+	padding-bottom: 10px;
+	background: #AD4336;
+	box-shadow: 5px 1px 12px #999;
+}
+
+#searchForm{
+	position: absolute;
+	top:5em;
+	height: 1.85em;
+	margin-left: 220px;
+}
+
+#main{
+	width: 778px;
+	margin-top: 7.5em;
+	min-height: 40em;
+	float: left;
+	margin-left: 180px;
+	z-index: -1;
+	border: 1px solid #ccc;
+	-webkit-box-shadow: 1px 0 3px #ccc;
+	-moz-box-shadow: 1px 0 3px #ccc;
+	box-shadow: 1px 0 3px #ccc;
+	background: #FFF;
+}
+#main_content{
+	margin-left: 40px;
+}
+#login_contain{
+	width: 700px;
+	height: 350px;
+	margin: auto;
+	margin-top: 2em;
+	padding-top: 3em;
+}
+#login_leftPart{
+	float: left;
+	width: 400px;
+	height: 300px;
+	background: #364B5A url(../images/login_image.png) no-repeat;
+	box-shadow: 0 0px 20px #CCC;
+	z-index: 1;
+}
+#login_rightPart{
+	float: left;
+	width: 300px;
+	height: 300px;
+	background: #FFFFFF;
+	box-shadow: 0 0 20px #CCC;
+	color: #676767;
+}
+#register_contain{
+	width: 700px;
+	min-height: 400px;
+	margin: auto;
+	margin-top: 2em;
+	padding-bottom: 5em;
+	text-align: center;
+	box-shadow: 0 0 20px #CCC;
+}
+#bookInfo_contain{
+	width: 700px;
+	min-height: 400px;
+	margin: auto;
+}
+.bookInfo_content{
+	float: left;
+	margin-bottom: 3em;
+	background: #FFF;
+	box-shadow: 0 0 8px #CCC;
+}
+.bookInfoImage{
+	float: right;
+	width: 300px;
+	min-height: 300px;
+	box-shadow: 3px 0 15px #CCC;
+}
+.bookDetail{
+	float: right;
+	width: 400px;
+	min-height: 305px;
+	background-color: #FcFcFc;
+}
+
+.userImage {
+    background: none repeat scroll 0 0 #CCCCCC;
+    border: 1px solid #CCCCCC;
+    border-radius: 50% 50% 50% 50%;
+    display: inline-block;
+    float: left;
+    height: 50px;
+    margin: 0 10px;
+    overflow: hidden;
+    width: 50px;
+}
+.username{
+	display: block;
+	font-weight: bold;
+	color: #364B5A;
+	text-shadow: 1px 1px 1px #CCC;
+}
+.pubTime{
+	float: left;
+	margin-top: 0.5em;
+	font-size: small;
+	color: #999;
+}
+
+.NavBookInfo{
+	width: 200px;
+	height: 50px;
+	margin: 0 10px 20px 10px;
+}
+
+.NavBookInfo .bookValue{
+	color: #F1D052 !important;
+	margin-right: 0 !important;
+	margin-top: 0.75em !important;
+} 
+.bookAuthor{
+	float: left !important;
+	margin-top: 0.7em !important;
+	width: 60px;
+	height: 1.2em !important;
+	line-height: 1.2em !important;
+	overflow: hidden;
+}
+.panel .bookInfo .bookAuthor{
+	width: 140px;
+}
+.NavBookInfo a{
+	padding: 0 !important;
+	width: 10em !important;
+	height: 1.4em !important;
+	line-height: 1.4em !important;
+}
+#searchList{
+	width: 778px;
+	margin-top: 7.5em;
+	min-height: 1500px;
+	float: left;
+	margin-left: 180px;
+	margin-bottom: 5em;
+	z-index: -1;
+	border: 1px solid #ccc;
+	-webkit-box-shadow: 1px 0 3px #ccc;
+	-moz-box-shadow: 1px 0 3px #ccc;
+	box-shadow: 1px 0 3px #ccc;
+	background: #FFF;
+}
+#listHeader{
+	margin: 3em 1em 0 3em;
+	border-bottom: 10px solid #464646;
+	color: #666;
+}
+#listHeader h1{
+	margin: 0;
+	padding: 0.5em;
+	background-color: #EEE;
+}
+.listItem{
+	margin: 1em 1em 1em 3em;
+	height: 170px;
+}
+.listItem table{
+	width: 100%;
+	border-bottom: 1px dotted #CCCCCC;
+}
+.imageItem{
+	width: 150px;
+}
+.nameItem{
+	width: 300px;
+	font-weight: bold;
+}
+.nameItem a{
+	width: 300px;
+	display: inline-block;
+	text-decoration: none;
+	color: #464646;
+}
+.nameItem h1{
+	margin: 0;
+}
+.commentSum a{
+	font-size: small;
+	color: green;
+	text-decoration: none;
+}
+.graySmall{
+	color: #999;
+	font-size: small;
+	text-shadow: 0 0 1px #999;
+	padding-left: 10px;
+}
+.redLarge{
+	color: #C94F40;
+	font-size: large;
+	font-weight: bold;
+}
+.redButton{
+	padding: 0 1em;
+	border-width: 0;
+	border-radius: 3px;
+	color: #FFFFFF; 
+	background-color: #C94F40;
+	cursor: pointer;
+}
+input.redButton:hover{
+	background-color: #F1D052;
+}
+#pageList{
+	margin: 3em 1em 0 3em;
+	color: #666;
+}
+#pageList{
+	margin-bottom: 5em;
+	padding: 0 1em;
+}
+#pageList a{
+	text-decoration: none;
+	color: green;
+}

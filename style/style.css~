@@ -531,7 +531,6 @@ p.image span, p.image img{
 	width:13em; 
 	border-radius: 5px;
 	border-color: white;
-	border-style:inset;
 }
 #userinfo .userinfo_header{
 	font-size: 30px;
